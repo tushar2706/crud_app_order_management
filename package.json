@@ -1,0 +1,26 @@
+{
+  "name": "win",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mock-express-request": "^0.2.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^4.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
